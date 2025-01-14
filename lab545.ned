@@ -58,7 +58,7 @@ network Lab545
         // X=5 Y=4 Z=5
         Sender1.pppg++ <--> {  delay = 20ms; datarate = 5Mbps; } <--> Router1.pppg++;
         Sender2.pppg++ <--> {  delay = 20ms; datarate = 6Mbps; } <--> Router1.pppg++;
-        Router1.pppg++ <--> {  delay = 20ms; datarate = 2Mbps; per = 4e-2; } <--> Router2.pppg++;
+        Router1.pppg++ <--> {  delay = 20ms; datarate = 2Mbps; } <--> Router2.pppg++;
         Router2.pppg++ <--> {  delay = 20ms; datarate = 60Mbps; } <--> Sender3.pppg++;
         Router2.pppg++ <--> {  delay = 20ms; datarate = 4Mbps; } <--> Receiver2.pppg++;
         Router2.pppg++ <--> {  delay = 20ms; datarate = 2Mbps; } <--> Receiver1.pppg++;
